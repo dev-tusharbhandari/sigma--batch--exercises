@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       /*class selector*/
+        .red{
+            background-color: brown;
+        }
+
+        /* id selector*/
+        #green{
+            background-color: aquamarine;
+        }
+
+        /*child selector*/
+        div>p{
+            color: aqua;
+            background-color: rgb(165, 42, 87);
+        }
+        /*descendent selector*/
+    
+        div p{
+             color: aqua;
+            background-color: rgb(165, 42, 87);
+        }
+        /*universal selector*/
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        /*Pseudo Selector*/
+        a:visited{
+            color: yellow;
+        }
+        a:link{
+            color: green;
+        }
+        a:active{
+            background-color: rgb(249, 21, 21);
+        }
+        a:hover{
+            background-color: aqua;
+        }
+        p:first-child{
+            background-color: pink;
+        }
+
+    </style>
+</head>
+<body>
+    <main class="one">
+        <p>i am first</p>
+        <p>i am second</p>
+    </main>
+    <div class="red">
+        your god is here
+        <article>
+        <p>i am a para inside div</p>
+        </article>
+
+    </div>
+
+    <div id="green">
+        i am your god
+    </div>
+    <a href="https://www.google.com">Go to google</a>
+    <a href="https://facebook.com">Go to facebook</a>
+    
+</body>
+</html>
